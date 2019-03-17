@@ -17,9 +17,19 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "./public/home.html"));;
 });
 
-// get tables page
+// get survey page
 app.get("/survey", function (req, res) {
   res.sendFile(path.join(__dirname, "./public/survey.html"));;
+});
+
+// get friends list
+app.get("/api/friends", function (req, res) {
+  return res.json(friends);
+});
+
+// post survey page
+app.post("/survey", function (req, res) {
+ 
 });
 
 
