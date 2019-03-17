@@ -21,3 +21,5 @@ var friendResultAray = [5, 1, 4, 4, 5, 1, 2, 5, 4, 1];
 var friendResultAray2 = [3, 2, 6, 4, 5, 1, 2, 5, 4, 1];
 
 var TotalDifference = 2 + 1 + 2; //  = 5
+
+module.exports = friends;
