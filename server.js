@@ -29,7 +29,12 @@ app.get("/api/friends", function (req, res) {
 
 // post survey page
 app.post("/survey", function (req, res) {
- 
+  console.log(req.body)
+  var userData = req.body
+  // push
+  res.json(req.body)
+  friends.push(userData);
+
 });
 
 
